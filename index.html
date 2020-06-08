@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+</head>
+<body>
+	<h1>タイトル</h1>
+	<h2>小見出し</h2>
+	<p class="paragraph">本文</p>
+<script>
+
+// チャレンジ4の回答を記載！
+  const element= document.getElementsByTagName('h1');
+  for (let h1 of element) {
+      h1.classList.add('title');
+    }
+
+  const element2 = document.getElementsByTagName('p');
+  for (let p of element2) {
+      p.classList.remove('paragraph');
+    }
+
+
+</script>
+</body>
+</html>
